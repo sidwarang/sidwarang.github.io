@@ -62,6 +62,12 @@ p {
 
 .text-faded {
     color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.text-category {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
 }
 
 section {
@@ -175,7 +181,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -242,6 +248,13 @@ header .header-content .header-content-inner p {
 .section-heading {
     margin-top: 0;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.section-contact {
+    margin-top: 0;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 .service-box {
@@ -252,6 +265,15 @@ header .header-content .header-content-inner p {
 @media (min-width: 992px) {
     .service-box {
         margin: 20px auto 0;
+    }
+    .text-faded {
+        text-align: justify;
+    }
+    .section-heading {
+        text-align: start;
+    }
+    .light {
+        visibility: hidden;
     }
 }
 
@@ -483,10 +505,11 @@ body {
 /* start about */
 
 .about_me {
-    margin: 20px 0;
-    padding: 2% 2%;
-    border-left: 1px solid #248E78;
-    border-right: 1px solid #248E78;
+    /*padding: 2% 2%;*/
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 .about_img img {
@@ -500,6 +523,7 @@ body {
     font-size: 28px;
     color: #ffffff;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .about_text h4 {
@@ -653,4 +677,9 @@ body {
     text-decoration: none;
     border: 2px solid #000;
     color: black;
+}
+
+.about_container {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
