@@ -683,3 +683,13 @@ body {
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+.sp-div {
+    height: 60px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sp-icon {
+    height: 100%;
+}
