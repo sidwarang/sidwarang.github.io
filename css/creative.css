@@ -699,3 +699,11 @@ body {
 .sp-icon {
     height: 100%;
 }
+
+.copyright {
+    padding-top: 20px;
+}
+
+.footer {
+    padding-bottom: 0px;
+}
