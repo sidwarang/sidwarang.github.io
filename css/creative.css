@@ -661,7 +661,13 @@ body {
 }
 
 .soc_icons_abt ul li a i:hover {
-    background: #2EB398;
+    background: #F05F40;
+    color: #3660A0;
+}
+
+.soc_icons_abt ul li a i.fa-github:hover {
+    background: #F05F40;
+    color: #444444
 }
 
 .resume a {
