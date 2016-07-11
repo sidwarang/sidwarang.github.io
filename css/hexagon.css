@@ -1,0 +1,132 @@
+@keyframes fadeIn {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes fadeIn{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes fadeIn{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadeIn{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+.animate-flicker {
+    -webkit-animation: fadeIn 1s infinite;
+    -moz-animation: fadeIn 1s infinite;
+    -o-animation: fadeIn 1s infinite;
+    animation: fadeIn 1s infinite;
+}
+
+.hexagon {
+    position: relative;
+    width: 110px;
+    height: 63.51px;
+    margin: 31.75px auto;
+    /*background-image: url(http://photos4.meetupstatic.com/photos/event/5/7/d/3/highres_436702483.jpeg);*/
+    background-size: auto 113.1607px;
+    z-index: 0;
+    background-position: center;
+    border-left: solid 6px #333333;
+    border-right: solid 6px #333333;
+}
+
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 77.78px;
+    height: 77.78px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 10.11px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 98.0000px;
+    height: 56.58032638058333px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.2902px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.2902px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-28.2902px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.hexTop {
+    top: -38.8909px;
+    border-top: solid 8.4853px #333333;
+    border-right: solid 8.4853px #333333;
+}
+
+.hexTop:after {
+    background-position: center top;
+}
+
+.hexBottom {
+    bottom: -38.8909px;
+    border-bottom: solid 8.4853px #333333;
+    border-left: solid 8.4853px #333333;
+}
+
+.hexBottom:after {
+    background-position: center bottom;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 3.4641px;
+    left: 0;
+    width: 98.0000px;
+    height: 56.5803px;
+    z-index: 2;
+    background: inherit;
+}
+
+.hexagon1 {
+    background-image: url(../img/icons/skills/html5-javascript-css3.gif);
+}
+
+.hexagon2 {
+    background-image: url(../img/icons/skills/angular-ionic-jquery.gif);
+}
+
+.hexagon3 {
+    background-image: url(../img/icons/skills/rest.png);
+}
+
+.hexagon4 {
+    background-image: url(../img/icons/skills/nodejs.png);
+}
+
+.hexagon5 {
+    background-image: url(../img/icons/skills/mysql-mongo.gif);
+}
+
+.hexagon6 {
+    background-image: url(../img/icons/skills/php-laravel.gif);
+}
+
+.hexagon7 {
+    background-image: url(../img/icons/skills/java.png);
+}
+
+.hexagon8 {
+    background-image: url(../img/icons/skills/python-shell.gif);
+}

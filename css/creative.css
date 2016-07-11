@@ -707,3 +707,16 @@ body {
 .footer {
     padding-bottom: 0px;
 }
+
+.text-detail {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.white {
+    border-color: #000000;
+}
