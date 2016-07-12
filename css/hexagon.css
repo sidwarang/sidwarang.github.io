@@ -34,8 +34,8 @@
     background-size: auto 113.1607px;
     z-index: 0;
     background-position: center;
-    border-left: solid 6px #333333;
-    border-right: solid 6px #333333;
+    border-left: solid 6px #222222;
+    border-right: solid 6px #222222;
 }
 
 .hexTop,
@@ -70,8 +70,8 @@
 
 .hexTop {
     top: -38.8909px;
-    border-top: solid 8.4853px #333333;
-    border-right: solid 8.4853px #333333;
+    border-top: solid 8.4853px #222222;
+    border-right: solid 8.4853px #222222;
 }
 
 .hexTop:after {
@@ -80,8 +80,8 @@
 
 .hexBottom {
     bottom: -38.8909px;
-    border-bottom: solid 8.4853px #333333;
-    border-left: solid 8.4853px #333333;
+    border-bottom: solid 8.4853px #222222;
+    border-left: solid 8.4853px #222222;
 }
 
 .hexBottom:after {

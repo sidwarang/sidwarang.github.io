@@ -80,4 +80,56 @@
         }
     });
 
+    $('.hexagon1').hover(function () {
+        $('.hexagon1').css("background-image", "url(img/icons/skills/95.png)");
+    },
+    function () {
+        $('.hexagon1').css("background-image", "url(img/icons/skills/html5-javascript-css3.gif)");
+    });
+
+    $('.hexagon2').hover(function () {
+            $('.hexagon2').css("background-image", "url(img/icons/skills/85.png)");
+        },
+        function () {
+            $('.hexagon2').css("background-image", "url(img/icons/skills/angular-ionic-jquery.gif)");
+        });
+    $('.hexagon3').hover(function () {
+            $('.hexagon3').css("background-image", "url(img/icons/skills/95.png)");
+        },
+        function () {
+            $('.hexagon3').css("background-image", "url(img/icons/skills/rest.png)");
+        });
+    $('.hexagon4').hover(function () {
+            $('.hexagon4').css("background-image", "url(img/icons/skills/95.png)");
+        },
+        function () {
+            $('.hexagon4').css("background-image", "url(img/icons/skills/nodejs.png)");
+        });
+
+    $('.hexagon5').hover(function () {
+            $('.hexagon5').css("background-image", "url(img/icons/skills/90.png)");
+        },
+        function () {
+            $('.hexagon5').css("background-image", "url(img/icons/skills/mysql-mongo.gif)");
+        });
+    $('.hexagon6').hover(function () {
+            $('.hexagon6').css("background-image", "url(img/icons/skills/90.png)");
+        },
+        function () {
+            $('.hexagon6').css("background-image", "url(img/icons/skills/php-laravel.gif)");
+        });
+    $('.hexagon7').hover(function () {
+            $('.hexagon7').css("background-image", "url(img/icons/skills/95.png)");
+        },
+        function () {
+            $('.hexagon7').css("background-image", "url(img/icons/skills/java.png)");
+        });
+
+    $('.hexagon8').hover(function () {
+            $('.hexagon8').css("background-image", "url(img/icons/skills/85.png)");
+        },
+        function () {
+            $('.hexagon8').css("background-image", "url(img/icons/skills/python-shell.gif)");
+        });
+
 })(jQuery); // End of use strict
