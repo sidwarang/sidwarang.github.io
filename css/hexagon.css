@@ -1,30 +1,3 @@
-@keyframes fadeIn {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-}
-@-o-keyframes fadeIn{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes fadeIn{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes fadeIn{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-}
-.animate-flicker {
-    -webkit-animation: fadeIn 1s infinite;
-    -moz-animation: fadeIn 1s infinite;
-    -o-animation: fadeIn 1s infinite;
-    animation: fadeIn 1s infinite;
-}
-
 .hexagon {
     position: relative;
     width: 110px;
