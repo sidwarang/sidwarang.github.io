@@ -725,3 +725,17 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+#portfolio h4 a {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#portfolio {
+    height: 100%;
+}
