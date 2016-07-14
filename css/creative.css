@@ -736,6 +736,7 @@ body {
     text-decoration: none;
 }
 
-#portfolio {
+.call-to-action {
+    margin-top: 30px;
     height: 100%;
 }
