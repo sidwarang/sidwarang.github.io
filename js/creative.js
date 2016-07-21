@@ -137,8 +137,8 @@
             $('.hexagon8').css("background-image", "url(img/icons/skills/python-shell.gif)");
         });
 
-    $(window).load(function(){
-        $('#myModal').modal('show');
-    });
+    // $(window).load(function(){
+    //     $('#myModal').modal('show');
+    // });
 
 })(jQuery); // End of use strict
